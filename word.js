@@ -1,5 +1,5 @@
 // import letter.js
-var Letter = require(".letter.js");
+var Letter = require("./letter.js");
 
 
 //contructr fumction Called Word
