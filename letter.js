@@ -4,10 +4,18 @@ function Letter(let){
      this.charac = let;
      //appear set to false
      this.appear = false;
+     //function inside letter called letterRender
+     this.letterRender = function () {
+        if (this.appear === false) {
+            return "_";
+        } else {
+            return this.charac;
+        }
+     }
 }
 
+module.exports = Letter;
 //let argument
 
 
 
-//function inside letter called letterRender check values of charac if false return  a syring"_", else create charc
